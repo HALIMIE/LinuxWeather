@@ -1,0 +1,4 @@
+module piProjectPort
+typeinfo apppiProject.qmltypes
+prefer :/piProjectPort/
+

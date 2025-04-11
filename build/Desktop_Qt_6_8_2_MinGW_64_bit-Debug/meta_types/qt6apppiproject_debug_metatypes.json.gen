@@ -1,0 +1,168 @@
+[
+    {
+        "classes": [
+            {
+                "className": "WeatherData",
+                "lineNumber": 6,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "temperature",
+                        "notify": "dataChanged",
+                        "read": "temperature",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "condition",
+                        "notify": "dataChanged",
+                        "read": "condition",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "iconUrl",
+                        "notify": "dataChanged",
+                        "read": "iconUrl",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "maxTemperature",
+                        "notify": "dataChanged",
+                        "read": "maxTemperature",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "minTemperature",
+                        "notify": "dataChanged",
+                        "read": "minTemperature",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "WeatherData",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "dataChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "WeatherData.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "WeatherDataManager",
+                "lineNumber": 11,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "updateWeather",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "hourlyForecast",
+                        "notify": "hourlyForecastChanged",
+                        "read": "hourlyForecast",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "WeatherDataManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "hourlyForecastChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "WeatherDataManager.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "WeeklyWeatherModel",
+                "lineNumber": 19,
+                "object": true,
+                "qualifiedClassName": "WeeklyWeatherModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "WeeklyWeatherModel.h",
+        "outputRevision": 68
+    }
+]

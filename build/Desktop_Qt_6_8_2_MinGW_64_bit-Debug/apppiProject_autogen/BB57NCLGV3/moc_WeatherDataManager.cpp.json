@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "className": "WeatherDataManager",
+            "lineNumber": 11,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "updateWeather",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "hourlyForecast",
+                    "notify": "hourlyForecastChanged",
+                    "read": "hourlyForecast",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "WeatherDataManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "hourlyForecastChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "WeatherDataManager.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "WeeklyWeatherModel",
+            "lineNumber": 19,
+            "object": true,
+            "qualifiedClassName": "WeeklyWeatherModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "WeeklyWeatherModel.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,3 @@
+C:/Users/KCCISTC/Desktop/linuxweather/piProject/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/apppiProject_autogen/include/../BB57NCLGV3/moc_WeatherData.cpp.json
+C:/Users/KCCISTC/Desktop/linuxweather/piProject/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/apppiProject_autogen/include/../BB57NCLGV3/moc_WeatherDataManager.cpp.json
+C:/Users/KCCISTC/Desktop/linuxweather/piProject/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/apppiProject_autogen/include/../HADQD2RF5L/moc_WeeklyWeatherModel.cpp.json
