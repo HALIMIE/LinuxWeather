@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>core/Button.qml</file>
+        <file>widgets/WeatherWidget.qml</file>
+        <file>modals/WeatherModal.qml</file>
+    </qresource>
+</RCC>
